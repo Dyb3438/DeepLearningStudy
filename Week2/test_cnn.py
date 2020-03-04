@@ -196,12 +196,12 @@ def main(device):
     # train(train_data, test_data, device)
 
     # test
-    test(test_data, device)
+    # test(test_data, device)
 
     # showLayer
-    # i = 1
-    # test_data = [test_data_data[i:i + 2], test_data_labels[i:i + 2]]
-    # showLayer(test_data, device)
+    i = 2
+    test_data = [test_data_data[i:i + 2], test_data_labels[i:i + 2]]
+    showLayer(test_data, device)
 
 
 if __name__ == '__main__':

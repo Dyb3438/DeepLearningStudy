@@ -278,10 +278,10 @@ def main(device):
     test_data = [test_data_data, test_data_labels]
 
     # train
-    train(train_data, test_data, device)
+    # train(train_data, test_data, device)
 
     # test
-    # test(test_data, device)
+    test(test_data, device)
 
     # showLayer
     # i = 0
